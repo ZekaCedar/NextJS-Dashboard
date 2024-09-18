@@ -1,11 +1,7 @@
 {
-  "extends": [
-    "next/core-web-vitals",
-    "next/typescript"
-  ],
+  "extends": "next",
   "rules": {
-    "no-console": "off",        // Disables the 'no-console' rule
-    "react/prop-types": "off",  // Disables prop-types for React components (since you're using TypeScript)
-    "semi": ["error", "always"] // Enforces semicolons
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
   }
 }
